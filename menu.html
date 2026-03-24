@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Portfolio - Menu</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">Coffee Portfolio</a>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="menu.html" class="nav-item active">Menu</a>
+                <a href="gallery.html" class="nav-item">Gallery</a>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="dark-mode-toggle" class="icon-btn"><i class="fas fa-moon"></i></button>
+                <button id="nav-toggle" class="icon-btn hamburger-menu" aria-label="Toggle Navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="content-page">
+        <section id="full-menu" class="section">
+            <div class="container">
+                <h1 class="section-title fade-in">Katalog Menu Kopi Kami</h1>
+                <p class="section-subtitle slide-up">Pilih dari berbagai racikan klasik dan signature kami.</p>
+
+                <div class="menu-card-grid slide-up">
+                    <div class="menu-card" data-name="Espresso Klasik" data-price="Rp 20.000" data-img="assets/img/menu/espresso.jpg" data-desc="Intensitas tinggi dari biji pilihan. Dasar sempurna untuk semua minuman berbasis susu." data-ing="Biji Arabika, Air Panas">
+                        <img src="assets/img/espresso.png" alt="Espresso" class="menu-card-photo">
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-name">Espresso Klasik</h3>
+                            <p class="menu-card-price">Rp 20.000</p>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-name="Cappuccino Signature" data-price="Rp 35.000" data-img="assets/img/menu/cappuccino.jpg" data-desc="Keseimbangan sempurna antara espresso, susu hangat, dan busa tebal. Taburan cokelat opsional." data-ing="Espresso, Susu, Busa Susu">
+                        <img src="assets/img/cappucino.jpg" alt="Cappuccino" class="menu-card-photo">
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-name">Cappuccino Signature</h3>
+                            <p class="menu-card-price">Rp 35.000</p>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-name="Caramel Latte" data-price="Rp 40.000" data-img="assets/img/menu/latte.jpg" data-desc="Susu steamed yang lembut dipadukan dengan espresso dan sirup karamel manis." data-ing="Espresso, Susu, Sirup Karamel">
+                        <img src="assets/img/Caramel Latte.png" alt="Latte" class="menu-card-photo">
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-name">Caramel Latte</h3>
+                            <p class="menu-card-price">Rp 40.000</p>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-name="Manual Brew V60" data-price="Rp 45.000" data-img="assets/img/menu/manual-brew.jpg" data-desc="Proses seduh manual yang menonjolkan karakter unik biji kopi single origin yang kami pilih." data-ing="Biji Single Origin, Air Panas, Metode V60">
+                        <img src="assets/img/galeri cuping.jpg" alt="Manual Brew V60" class="menu-card-photo">
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-name">Manual Brew V60</h3>
+                            <p class="menu-card-price">Rp 45.000</p>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-name="Affogato" data-price="Rp 30.000" data-img="assets/img/menu/affogato.jpg" data-desc="Satu shot espresso panas disiramkan di atas satu skop es krim vanila. Manis dan pahit yang menyegarkan." data-ing="Espresso, Es Krim Vanila">
+                        <img src="assets/img/Affogato.png" alt="Affogato" class="menu-card-photo">
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-name">Affogato</h3>
+                            <p class="menu-card-price">Rp 30.000</p>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-name="Mocha Ice Blended" data-price="Rp 45.000" data-img="assets/img/menu/mocha.jpg" data-desc="Perpaduan sempurna espresso, cokelat, dan es yang diblender hingga halus, dihiasi whipped cream." data-ing="Espresso, Sirup Cokelat, Susu, Es, Whipped Cream">
+                        <img src="assets/img/Mocha Ice Blended.png" alt="Mocha Ice Blended" class="menu-card-photo">
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-name">Mocha Ice Blended</h3>
+                            <p class="menu-card-price">Rp 45.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h4>Coffee Portfolio</h4>
+                <p>Crafting Moments, One Sip at a Time.</p>
+                <p>&copy; 2025 Coffee. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigasi Cepat</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Hubungi Kami</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Tuban, Jatirogo</p>
+                <p><i class="fas fa-phone"></i> 0858 0686 5727</p>
+                <p><i class="fas fa-envelope"></i> blueframecreative22@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.tiktok.com/@blueframe.creativ?is_from_webapp=1&sender_device=pc" target="_blank" style="text-decoration: none; color:#ffff;"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/blueframe.creative?igsh=aDgzemZtajh2cmNs" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/1EieXqZH4k/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
